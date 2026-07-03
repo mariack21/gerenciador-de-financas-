@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+ <label for="valor">valor</label> 
+ <input type="number"> nome="valor" id="valor"
+ <button onclick="calcular()">calcular</button>
+ <div in="calcular"></div>
+ <script>
+    function calcular() {
+        const valor=parseFloat(document. getElementById ('valor'). value)
+        const despesa= valor*0.5
+        const desejos = valor*0.3
+        const investimentos = valor*0.2
+        document.getElementById('saida') 
+        .innerHTML= `<p>
+        depesas ${despesas}
+        desejos ${desejos}
+        investimentos ${investimentos} </p>; 
+        }
+ </script>
+</body>
+</html>
